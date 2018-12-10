@@ -16,7 +16,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func btnTest(_ sender: UIButton) {
-        let vc = UIStoryboard.init(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier: "ReusableViewController") as! ReusableViewController
+        let vc = UIStoryboard.init(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier: "CustomTabBarViewController") as! CustomTabBarViewController
         present(vc,animated: true)
     }
     
