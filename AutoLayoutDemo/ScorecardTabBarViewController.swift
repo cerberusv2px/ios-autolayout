@@ -1,20 +1,21 @@
 //
-//  CustomTabBarViewController.swift
+//  ScorecardTabBarViewController.swift
 //  AutoLayoutDemo
 //
-//  Created by Sujin Shrestha on 12/10/18.
+//  Created by Sujin Shrestha on 12/11/18.
 //  Copyright © 2018 Sujin Shrestha. All rights reserved.
 //
 
 import UIKit
 
-class CustomTabBarViewController: UITabBarController {
-    
+class ScorecardTabBarViewController: UITabBarController {
+
     var tabBarItemm = UITabBarItem()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-    UITabBarItem.appearance().setTitleTextAttributes([NSAttributedString.Key.foregroundColor : UIColor.white], for: .selected)
+        
+    UITabBarItem.appearance().setTitleTextAttributes([NSAttributedString.Key.foregroundColor : UIColor.blue], for: .selected)
     UITabBarItem.appearance().setTitleTextAttributes([NSAttributedString.Key.foregroundColor : UIColor.darkGray], for: .normal)
         // Do any additional setup after loading the view.
         
@@ -29,25 +30,20 @@ class CustomTabBarViewController: UITabBarController {
         tabBarItemm = self.tabBar.items![1]
         tabBarItemm.image = deselectedImage2
         tabBarItemm.selectedImage = selectedImage2
-        
-        let selectedImage3 = UIImage(named: "Profile_white")?.withRenderingMode(.alwaysOriginal)
-        let deselectedImage3 = UIImage(named: "Profile_gray")?.withRenderingMode(.alwaysOriginal)
-        tabBarItemm = self.tabBar.items![2]
-        tabBarItemm.image = deselectedImage3
-        tabBarItemm.selectedImage = selectedImage3
-        
+
         self.selectedIndex = 0
+        // Do any additional setup after loading the view.
     }
     
-    
+
     /*
-     // MARK: - Navigation
-     
-     // In a storyboard-based application, you will often want to do a little preparation before navigation
-     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-     // Get the new view controller using segue.destination.
-     // Pass the selected object to the new view controller.
-     }
-     */
-    
+    // MARK: - Navigation
+
+    // In a storyboard-based application, you will often want to do a little preparation before navigation
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        // Get the new view controller using segue.destination.
+        // Pass the selected object to the new view controller.
+    }
+    */
+
 }

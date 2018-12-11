@@ -16,7 +16,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func btnTest(_ sender: UIButton) {
-        let vc = UIStoryboard.init(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier: "CustomTabBarViewController") as! CustomTabBarViewController
+        let vc = UIStoryboard.init(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier: "SegmentedViewController") as! SegmentedViewController
         present(vc,animated: true)
     }
     

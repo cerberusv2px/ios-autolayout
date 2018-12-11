@@ -18,6 +18,7 @@
 		162DFA2621B4FA4200007B76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 162DFA2421B4FA4200007B76 /* LaunchScreen.storyboard */; };
 		162DFA2E21B50E8C00007B76 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162DFA2D21B50E8C00007B76 /* SecondViewController.swift */; };
 		16909B1821BE747300F982B7 /* CustomTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16909B1721BE747300F982B7 /* CustomTabBarViewController.swift */; };
+		16CB295821BF8F5F00C91A56 /* ScorecardTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16CB295721BF8F5F00C91A56 /* ScorecardTabBarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		162DFA2721B4FA4200007B76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		162DFA2D21B50E8C00007B76 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		16909B1721BE747300F982B7 /* CustomTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarViewController.swift; sourceTree = "<group>"; };
+		16CB295721BF8F5F00C91A56 /* ScorecardTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScorecardTabBarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 				16177B6521BD15490066DC97 /* CustomView.swift */,
 				16177B6721BD15760066DC97 /* CustomView.xib */,
 				16909B1721BE747300F982B7 /* CustomTabBarViewController.swift */,
+				16CB295721BF8F5F00C91A56 /* ScorecardTabBarViewController.swift */,
 			);
 			path = AutoLayoutDemo;
 			sourceTree = "<group>";
@@ -161,6 +164,7 @@
 				16909B1821BE747300F982B7 /* CustomTabBarViewController.swift in Sources */,
 				16177B6421BD13BC0066DC97 /* ReusableViewController.swift in Sources */,
 				16177B6221BCE6120066DC97 /* SegmentedViewController.swift in Sources */,
+				16CB295821BF8F5F00C91A56 /* ScorecardTabBarViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
